@@ -1,0 +1,7 @@
+<template>
+   <lightning-card title="">
+    <template for:each={Opp} for:item="O">
+        <c-ex02filho key={O.ide} ide={O.ide} name={O.name} amount={O.amount} stagename={O.stagename}></c-ex02filho>
+    </template>
+   </lightning-card>
+</template>
